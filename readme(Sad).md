@@ -3,6 +3,7 @@ npx @react-native-community/cli init sadatcode
 npx react-native run-android
 
 rfce (react  native functional component3)
+rnfes (React native functional export with styling(stylesheet))
 # password Gen project:
 npm i yup
 
@@ -96,4 +97,16 @@ apply from: file("../../node_modules/react-native-vector-icons/fonts.gradle")
 # music
 react native track player 
 npm install --save react-native-track-player
+
+npm install @react-native-community/slider --save
+
+# navigation 
+pop screens (pages), 
+after login, screenn goes away ...
+dispatch  .. move to the second screen with some data  
+
+npm install @react-navigation/native
+npm install @react-navigation/native-stack
+
+
 
